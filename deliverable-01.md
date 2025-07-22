@@ -132,3 +132,4 @@ Optionally, integrate this into the frontend (e.g., via presets, dropdowns, or a
 
 Good luck! We're excited to see how you think and build.
 
+*For questions about this challenge or the hiring process, please reach out to the Thrivory recruiting team.*
