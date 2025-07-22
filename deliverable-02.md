@@ -36,7 +36,7 @@ The ideal candidate is one that will maximize Thrivory's chance of success. I po
 
 3. **Strong communication & proactive problem-solving:** Excellent communicators who proactively find answers, and explain technical decisions clearly to stakeholders.
 
-4. **Fast builders with modern tooling:** Engineers who ship quality products quickly using modern tools (AI copilots, pragmatic tech choices). Domain comfort in healthcare/fintech is valuable.
+4. **Fast builders with modern tooling:** Engineers who ship quality products quickly using modern tools (AI copilots, pragmatic tech choices). Domain comfort in healthcare/fintech is valuable, especially around understanding the nuances of the data and the compliance requirements.
 
 5. **Product-driven autonomous decision-making:** Engineers who prioritize building the right thing while making countless solo decisions guided by mission and product sense.
 
@@ -46,7 +46,7 @@ The ideal candidate is one that will maximize Thrivory's chance of success. I po
 
 * **First principles** → Code structure, data modeling, API design quality
 * **Ambiguity tolerance** → How they handle underspecified requirements in the coding challenge
-* **Communication & problem-solving** → README documentation, inline comments, technical conversations, follow-up interviews
+* **Communication & problem-solving** → doc.md documentation, inline comments, technical conversations, follow-up interviews
 * **Fast building** → Completion within time constraints, smart use of AI tools, pragmatic scope decisions
 * **Product-driven autonomous decision-making** → Understanding user needs, making autonomous decisions based on user needs.
 * **Team contribution** → Behavioral interviews, communication style during technical discussions
@@ -113,6 +113,24 @@ _Note: It's tricky to keep the scope of scenario 2 small, while offering enough 
 **Completeness**: Candidates should scope work to time constraints. Evaluation focuses on decisions and reasoning, not completeness. API endpoints remain core requirements.
 
 
+## Follow-up Interview - Questionnaire
+
+This is just a guideline to drive the conversation during the follow-up interview.
+
+1. What went through your mind as you read the prompt? Walk us through your thought process.
+2. Let's get into some implementation specifics:
+    * How did you implement the data parsing logic for the dataset? Did you use AI copilots?
+    * Why did you choose to implement the estimator logic the way you did? What were the trade-offs that you considered?
+    * How did you implement the frontend? Did you use AI copilots?
+    * How did you evolve the codebase to support the new requirements? Any trade-offs that you had to make?
+3. If you can go back, what would you have done differently?
+4. If you had more time to build on top of this, what would you do?
+5. Let's assume we have to deploy this to production. Walk us through how that implementation would look like. 
+    * What would need to change?
+    * Look for mention of security/compliance/HIPAA etc.
+
+_Note: This is just a guideline to drive the conversation during the follow-up interview. Feel free to add/remove/modify questions as you see fit._
+
 ## Evaluation Criteria & Scorecard
 
 _This evaluation framework assesses the 6 key traits: (1) First principles, (2) Ambiguity tolerance, (3) Communication, (4) Fast building, (5) Product sense, and (6) Team contribution._
@@ -164,17 +182,20 @@ Complete this section after the followup interview.
 
 **1. First Principles Thinking** (4 points)
 
-a. Can they clearly explain why they modeled things the way they did? (e.g., why those specific fields or types, how they grouped data, how they handled estimation logic?)
+a. Can they clearly explain why they modeled things the way they did? (e.g., why those specific fields or types, how they grouped data, how they handled estimation logic?) Is their approach rooted in fundamentals and simplicity?
 
-Is their approach rooted in fundamentals and simplicity?
+    Score: ___ / 2
 
-    Score: ___ / 4
+b. Did they consider the security/HIPAA implications while talking about production deployment?
 
-**2. Navigating Ambiguity** (4 points)
+    Score: ___ / 2
 
-a. How did they make decisions in the face of vague or missing requirements? (e.g., estimator strategy, no clear frontend requirements)
 
-    Score: ___ / 4
+**2. Navigating Ambiguity** (2 points)
+
+a. How did they make decisions in the face of vague or missing requirements? (e.g., estimator strategy, no clear frontend requirements). Did they choose clearly with a rationale?
+
+    Score: ___ / 2
 
 **3. Efficiency / Speed of Execution** (4 points)
 
@@ -182,13 +203,15 @@ a. How well did they use AI tooling or shortcuts? Did they identify the best are
 
     Score: ___ / 4
 
-**4. Communication & Collaboration** (4 points)
+**4. Communication & Collaboration** (6 points)
 
-a. Are they collaborative, clear, and someone we'd enjoy working with?
-
-Did they explain things in a thoughtful and non-defensive way? Were they able to narrate decisions like someone who communicates across PM/eng/stakeholder lines?
+a. Were they able to effectively communicate their thought process? explain their trade-offs?
 
     Score: ___ / 4
+
+b. Did they explain things in a thoughtful and non-defensive way? Were they able to narrate decisions like someone who communicates across PM/eng/stakeholder lines?
+
+    Score: ___ / 2
 
 **Total Score - Follow-up Interview (16 points)**
 Tally up the total score.
